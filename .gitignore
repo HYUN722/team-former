@@ -1,0 +1,13 @@
+# 작성일: 2026-10-20 04:00 (KST)
+# 키가 들어 있는 파일은 절대 깃허브에 올리지 않는다 (공고 4.1절, 감점 7번)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+*.zip
